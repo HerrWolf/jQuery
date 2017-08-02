@@ -1,0 +1,32 @@
+.click()
+	esta accion se ejecuta al dar click en el elemento seleccionado
+
+.css()
+	esta accion modifica el estilo del elemento seleccionado
+
+.attr()
+	esta accion selecciona o crea atributos
+
+.val()
+	esta accion manipula el value del elemento seleccionado
+
+.addClass()
+	esta accion agrega una clase al elemento seleccionado
+
+.removeClass()
+	esta accion remueve una clase al elemento seleccionado
+
+.html()
+	esta accion reemplaza u obtiene el codigo codigo html del elemento seleccionado
+
+.append()
+	Esta accion agrega contenido html
+
+.before()
+	esta accion agrega contenido antes de el elemento seleccionado
+
+.after()
+	esta accion agrega contenido despues de el elemento seleccionado
+
+.toggle()
+	esta accion muestra y desaparece un elemento
