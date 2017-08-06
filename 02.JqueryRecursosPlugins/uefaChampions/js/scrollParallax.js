@@ -6,12 +6,17 @@ $(window).scroll(function(){
 	$("#cristiano").css({"top": -250 + posY/5 + "px"});
 
 	// hacer que los grupos aparezcan por los lados
-	$("#grupos").css({"margin-left": -100 +posY/3.3 +"%"})
+	$("#grupos").css({"margin-left": -100 +posY/3.3 +"%"});
 
 	if (posY > $("#bloque2").offset().top){
 
 		$("#grupos").css({"margin":"auto"});
 	}
 
-	$("#bloque3").css({"top": -150 - posY/3 + "px"});
+	$("#estadios").css({"margin-left": 200 - posY/5.7 +"%"});
+
+	if (posY > $("#bloque3").offset().top){
+
+		$("#estadios").css({"margin":"auto"});
+	}
 });
